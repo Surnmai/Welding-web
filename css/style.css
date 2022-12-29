@@ -979,8 +979,11 @@ footer {
 .home .home-slider .swiper-button-prev {
     display: none;
   }
-  .footer .bottom-footer .bottom {
+  .foot .bottom-footer .bottom {
     flex-direction: column;
+  }
+  .foot .bottom-footer .copyright {
+    margin-bottom: 1.5rem;
   }
 }
 @media all and (max-width: 320px) {
