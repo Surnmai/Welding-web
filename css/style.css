@@ -863,17 +863,18 @@ footer {
 .footer .top-footer .box-container .box p i {
   padding-right: 1rem;
 }
-.footer .bottom-footer {
+
+.foot {
   background: hsl(218deg, 71%, 11%);
 }
-.footer .bottom-footer .bottom {
+.foot .bottom-footer .bottom {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   color: #fff;
   font-size: 1.5rem;
 }
-.footer .bottom-footer .social-media a {
+.foot .bottom-footer .social-media a {
   color: #fff;
   margin: 0 0.5rem;
 }

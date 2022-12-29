@@ -1004,9 +1004,6 @@ footer {
     }
     .box-container {
       @include grid(25rem);
-      // display: grid;
-      // grid-template-columns: 25rem 25rem auto;
-      // gap: 1.5rem;
       justify-content: center;
       .box {
         h3 {
@@ -1026,9 +1023,13 @@ footer {
       }
     }
   }
-  .bottom-footer {
-    background: $footer;
+}
+// footer styles ends
 
+// foot section starts
+.foot {
+  background: $footer;
+  .bottom-footer {
     .bottom {
       // padding: 2rem 9%;
       display: flex;
@@ -1045,7 +1046,7 @@ footer {
     }
   }
 }
-// footer styles ends
+//foot section ends
 
 // back to top starts
 #backTotop {
