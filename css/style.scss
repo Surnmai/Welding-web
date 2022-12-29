@@ -1180,10 +1180,13 @@ footer {
       }
     }
   }
-  .footer {
+  .foot {
     .bottom-footer {
       .bottom {
         flex-direction: column;
+      }
+      .copyright {
+        margin-bottom: 1.5rem;
       }
     }
   }
