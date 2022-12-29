@@ -147,6 +147,10 @@ section {
   padding: 2rem 9%;
 }
 
+footer {
+  padding: 2rem 9%;
+}
+
 .home {
   padding: 0;
 }
@@ -807,9 +811,6 @@ section {
 .footer {
   background: hsl(218deg, 70%, 18%);
 }
-.footer .top-footer {
-  padding: 2rem 9%;
-}
 .footer .top-footer .newsletter {
   text-align: center;
   margin-bottom: 2rem;
@@ -819,7 +820,7 @@ section {
   font-size: 2rem;
 }
 .footer .top-footer .newsletter form {
-  width: 60rem;
+  max-width: 60rem;
   margin: 1rem auto;
   max-width: 70rem;
   display: flex;
@@ -866,7 +867,6 @@ section {
   background: hsl(218deg, 71%, 11%);
 }
 .footer .bottom-footer .bottom {
-  padding: 2rem 9%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -916,6 +916,9 @@ section {
     font-size: 50%;
   }
   section {
+    padding: 2rem;
+  }
+  footer {
     padding: 2rem;
   }
   header .top-header {
