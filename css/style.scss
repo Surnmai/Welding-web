@@ -277,36 +277,37 @@ footer {
   .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2.5rem;
     .dreamIt {
-      flex: 1 1 30rem;
+      flex: 1 1 40rem;
       h2 {
         color: $titleText;
         font-size: 5rem;
         font-weight: 800;
         text-transform: uppercase;
-        width: 50rem;
+        // width: 50rem;
       }
       p {
         font-size: 1.4rem;
         padding: 1rem 0;
         line-height: 1.5;
         letter-spacing: 0.1rem;
-        width: 50rem;
+        // width: 50rem;
+
         text-transform: none;
         text-align: justify;
       }
     }
     .progress-items {
-      flex: 1 1 30rem;
+      flex: 1 1 40rem;
       .item {
         display: flex;
         flex-direction: column;
-
         align-items: start;
         font-size: 2.5rem;
         letter-spacing: 0.1rem;
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
+        margin: 2.5rem 0;
         color: $titleText;
 
         .progress-area {

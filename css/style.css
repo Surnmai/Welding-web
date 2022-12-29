@@ -233,29 +233,27 @@ footer {
 .choose-us .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 .choose-us .container .dreamIt {
-  flex: 1 1 30rem;
+  flex: 1 1 40rem;
 }
 .choose-us .container .dreamIt h2 {
   color: hsl(218deg, 70%, 18%);
   font-size: 5rem;
   font-weight: 800;
   text-transform: uppercase;
-  width: 50rem;
 }
 .choose-us .container .dreamIt p {
   font-size: 1.4rem;
   padding: 1rem 0;
   line-height: 1.5;
   letter-spacing: 0.1rem;
-  width: 50rem;
   text-transform: none;
   text-align: justify;
 }
 .choose-us .container .progress-items {
-  flex: 1 1 30rem;
+  flex: 1 1 40rem;
 }
 .choose-us .container .progress-items .item {
   display: flex;
@@ -263,7 +261,7 @@ footer {
   align-items: start;
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 2rem;
+  margin: 2.5rem 0;
   color: hsl(218deg, 70%, 18%);
 }
 .choose-us .container .progress-items .item .progress-area {
