@@ -1122,6 +1122,9 @@ footer {
         width: 30rem;
         // pointer-events: none;
         visibility: hidden;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
         a {
           margin: 0.5rem 1rem;
           text-align: center;
@@ -1131,7 +1134,8 @@ footer {
         }
         &.active {
           visibility: visible;
-          // opacity: 1;
+          opacity: 1;
+          transform: scale(1);
           right: 1%;
         }
       }
