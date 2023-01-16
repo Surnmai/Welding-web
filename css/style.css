@@ -910,7 +910,7 @@ footer {
     max-width: 50rem;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) or (max-width: 805px){
   html {
     font-size: 50%;
   }
